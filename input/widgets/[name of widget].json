@@ -12,7 +12,7 @@
     "supportsAutoResize": true,
     "name": "Treant Tree",
     "description": "Tree widget using the Treant library",
-    "category": ["Beta", "Imported"]
+    "category": ["Imported"]
   },
   "properties": {
     "CustomClass": {
