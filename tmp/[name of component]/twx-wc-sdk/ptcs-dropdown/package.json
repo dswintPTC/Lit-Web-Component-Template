@@ -1,0 +1,19 @@
+{
+  "description": "",
+  "keywords": [],
+  "homepage": "",
+  "name": "ptcs-dropdown",
+  "version": "9.5.0-0",
+  "main": "ptcs-dropdown.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ptcs-hbar": "file:../ptcs-hbar",
+    "ptcs-library": "file:../ptcs-library",
+    "@polymer/polymer": "^3.0.0",
+    "@polymer/iron-icons": "^3.0.0"
+  }
+}

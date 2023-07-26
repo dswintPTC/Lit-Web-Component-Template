@@ -1,0 +1,24 @@
+{
+  "description": "",
+  "keywords": [],
+  "homepage": "",
+  "name": "ptcs-datepicker",
+  "version": "9.5.0-0",
+  "main": "ptcs-datepicker.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ptcs-icons": "file:../ptcs-icons",
+    "ptcs-button": "file:../ptcs-button",
+    "ptcs-collapse": "file:../ptcs-collapse",
+    "ptcs-dropdown": "file:../ptcs-dropdown",
+    "ptcs-hbar": "file:../ptcs-hbar",
+    "ptcs-textfield": "file:../ptcs-textfield",
+    "ptcs-vbar": "file:../ptcs-vbar",
+    "ptcs-moment": "file:../ptcs-moment"
+  },
+  "devDependencies": {}
+}

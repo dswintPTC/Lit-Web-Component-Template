@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+
+
+    <script type="module" src="../../../../ptcs-style-unit/ptcs-style-unit.js"></script>
+    <script type="module" src="../../../../ptcs-base-theme/ptcs-base-theme.js"></script>
+
+    <script type="module" src="../ptcs-pagination-carousel.js"></script>
+  </head>
+  <body>
+    <h2>Normal size version:</h2>
+    <ptcs-pagination-carousel total-number-of-pages="10" current-page="2"></ptcs-pagination-carousel>
+    <br><br><br><br><br><br>
+    <h2>Min size version:</h2>
+    <ptcs-pagination-carousel total-number-of-pages="10" min-size></ptcs-pagination-carousel>
+    <br><br><br><br><br><br>
+    <h2>Big numbers:</h2>
+    <ptcs-pagination-carousel total-number-of-pages="99999" current-page="3"></ptcs-pagination-carousel>
+  </body>
+</html>

@@ -1,0 +1,17 @@
+{
+  "description": "",
+  "keywords": [],
+  "homepage": "",
+  "name": "ptcs-chip",
+  "version": "9.5.0-0",
+  "main": "ptcs-chip.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ptcs-behavior-binary": "file:../ptcs-behavior-binary",
+    "ptcs-label": "file:../ptcs-label"
+  }
+}

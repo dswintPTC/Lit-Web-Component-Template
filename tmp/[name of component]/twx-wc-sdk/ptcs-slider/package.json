@@ -1,0 +1,11 @@
+{
+  "description": "",
+  "homepage": "",
+  "name": "ptcs-slider",
+  "version": "9.5.0-0",
+  "main": "ptcs-slider.js",
+  "license": "MIT",
+  "author": "Magnus Tobiasson <mtobiasson@ptc.com>",
+  "dependencies": {},
+  "devDependencies": {}
+}

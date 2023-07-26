@@ -1,0 +1,20 @@
+{
+  "description": "",
+  "keywords": [],
+  "homepage": "",
+  "name": "ptcs-button",
+  "version": "9.5.0-0",
+  "main": "ptcs-button.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@polymer/polymer": "^3.1.0",
+    "@polymer/iron-icons": "^3.0.0",
+    "ptcs-library": "file:../ptcs-library",
+    "ptcs-behavior-binary": "file:../ptcs-behavior-binary",
+    "ptcs-behavior-focus": "file:../ptcs-behavior-focus"
+  }
+}

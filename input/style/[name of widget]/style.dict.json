@@ -1,0 +1,19 @@
+[
+    {
+        "variant": "",
+        "parts": [
+            {
+                "part":  "",
+                "states": [
+                    {
+                        "state":  "",
+                        "styles": {
+                            "background": "${global-color-bg-primary}",
+                            "border": "8px dashed ${simpleel-border-color}"
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+]

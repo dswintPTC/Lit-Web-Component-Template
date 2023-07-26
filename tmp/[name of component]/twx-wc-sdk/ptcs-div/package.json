@@ -1,0 +1,16 @@
+{
+  "description": "",
+  "keywords": [],
+  "homepage": "",
+  "name": "ptcs-div",
+  "version": "9.5.0-0",
+  "main": "ptcs-div.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@polymer/polymer": "^3.0.0"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "",
+  "keywords": [],
+  "homepage": "",
+  "name": "ptcs-confirmation",
+  "version": "9.5.0-0",
+  "main": "ptcs-confirmation.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ptcs-library": "file:../ptcs-library",
+    "ptcs-modal-overlay": "file:../ptcs-modal-overlay"
+  },
+  "devDependencies": {}
+}

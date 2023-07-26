@@ -1,0 +1,12 @@
+{
+  "description": "",
+  "homepage": "",
+  "name": "ptcs-textarea",
+  "version": "9.5.0-0",
+  "main": "ptcs-textarea.js",
+  "license": "MIT",
+  "dependencies": {
+    "@polymer/polymer": "^3.0.0"
+  },
+  "devDependencies": {}
+}

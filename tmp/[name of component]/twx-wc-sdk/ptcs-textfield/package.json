@@ -1,0 +1,20 @@
+{
+  "description": "",
+  "keywords": [],
+  "homepage": "",
+  "name": "ptcs-textfield",
+  "version": "9.5.0-0",
+  "main": "ptcs-textfield.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "ptcs-icon": "file:../ptcs-icon",
+    "ptcs-icons": "file:../ptcs-icons",
+    "ptcs-button": "file:../ptcs-button",
+    "ptcs-label": "file:../ptcs-label",
+    "ptcs-library": "file:../ptcs-library"
+  },
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,13 @@
+{
+  "description": "",
+  "homepage": "",
+  "name": "ptcs-list",
+  "version": "9.5.0-0",
+  "main": "ptcs-list.js",
+  "license": "MIT",
+  "author": "Magnus Tobiasson <mtobiasson@ptc.com>",
+  "dependencies": {
+    "@polymer/iron-icons": "^3.0.0"
+  },
+  "devDependencies": {}
+}

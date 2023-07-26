@@ -1,0 +1,11 @@
+{
+  "description": "",
+  "homepage": "",
+  "name": "ptcs-image",
+  "version": "9.5.0-0",
+  "main": "ptcs-image.js",
+  "license": "MIT",
+  "author": "Magnus Tobiasson <mtobiasson@ptc.com>",
+  "dependencies": {},
+  "devDependencies": {}
+}

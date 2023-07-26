@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Load styling -->
+        <script type="module" src="../../../../ptcs-style-unit/ptcs-style-unit.js"></script>
+        <script type="module" src="../../../../ptcs-base-theme/ptcs-multi-theme.js"></script>
+
+        <script src="../../../../moment/moment.js"></script>
+
+        <script type="module" src="../ptcs-chip-data-filter-selector-dropdown.js"></script>
+
+        <style>
+            :root
+                {
+                    font-family: 'Open Sans', sans-serif;
+                }
+        </style>
+    </head>
+    <body>
+        <h3> Selector part </h3>
+        <ptcs-chip-data-filter-selector-dropdown>
+        </ptcs-chip-data-filter-selector-dropdown>
+        <script>
+            const mockData = {
+                dataShape: {
+                      fieldDefinitions: {
+                          TextBasedCategory: {
+                              name:        'textBasedCategory',
+                              baseType:    'STRING'
+                          },
+                          DateTimeBasedCategory: {
+                              name:        'dateTimeBasedCategory',
+                              baseType:    'DATETIME'
+                          },
+                          NumberBasedCategory: {
+                              name:        'numberBasedCategory',
+                              baseType:    'NUMBER'
+                          },
+                          BooleanBasedCategory: {
+                              name:        'BooleanBasedCategory',
+                              baseType:    'BOOLEAN'
+                         },
+                         LocationBasedCategory: {
+                              name:        'LocationBasedCategory',
+                              baseType:    'LOCATION'
+                            }
+                      }
+                 }
+            }
+            const refDictionary = {
+                                    stringAddFilter:               'Add Filter',
+                                    stringApply:                   'Apply',
+                                    stringSelectFilterFirst:       'Select Filter First',
+                                    stringPleaseSelectDateOrRange: 'Please select data or range',
+                                    stringClearSelectedItems:      'Clear Selected Items',
+                                    stringSelectAll:               'Select All',
+                                    stringSelectMultipleValues:    'Select Multiple Values',
+                                    stringAddValue:                'Add Value',
+                                    stringBetween:                 'Between',
+                                    stringFrom:                    'from',
+                                    stringOutside:                 'Outside',
+                                    stringTo:                      'to',
+                                    stringAnd:                     'and',
+                                    stringAll:                     'All',
+                                    stringSelected:                'selected',
+                                    stringShowMore:                'Show more',
+                                    stringShowLess:                'Show less',
+                                    stringWithin:                  'Within',
+                                    stringNotWithin:               'Not Within',
+                                    stringMiles:                   'miles',
+                                    stringKilometers:              'kilometers',
+                                    stringNauticalMiles:           'nautical miles',
+                                    stringFilterBy:                'Filter by',
+                                    stringCondition:               'Condition',
+                                    stringValue:                   'Value',
+                                    stringUnits:                   'Units',
+                                    stringDate:                    'Date',
+                                    stringTime:                    'Time',
+                                    stringToDate:                  'To Date',
+                                    stringFromTime:                'Time',
+                                    stringToTime:                  'To Time',
+                                    stringLatitude:                'Latitude',
+                                    stringLongitude:               'Longitude'
+                                    };
+            customElements.whenDefined("ptcs-chip-data-filter-selector-dropdown").then(() => {
+                const selector = document.querySelector('ptcs-chip-data-filter-selector-dropdown');
+                selector.addEventListener('change', (event) => {
+                    console.log(selector.query);
+                })
+                selector.dictionary = refDictionary;
+                selector.data = mockData;
+            });
+        </script>
+    </body>
+</html>

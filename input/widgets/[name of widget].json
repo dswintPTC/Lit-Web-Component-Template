@@ -1,0 +1,90 @@
+{
+  "elementName": "treant-tree",
+  "htmlImports": [
+    {
+	    "from": "npm",
+      "id": "treant-tree",
+	    "version": "file:treant-tree",
+      "url": "treant-tree/treant-tree.js"
+    }
+  ],
+  "flags": {
+    "supportsAutoResize": true,
+    "name": "Treant Tree",
+    "description": "Tree widget using the Treant library",
+    "category": ["Beta", "Imported"]
+  },
+  "properties": {
+    "CustomClass": {
+      "baseType": "STRING",
+      "description": "Custom class for the element",
+      "isBindingSource": true
+    },
+    "Data": {
+      "description": "List Data Soucrce",
+      "baseType": "INFOTABLE",
+      "src": "data",
+      "isLocalizable": false,
+      "isEditable": true,
+      "isBindingTarget": true,
+      "isVisible": true
+    },
+    "ParentIDField":
+    {
+      "description": "The infotable field that represents the parent id value",
+      "baseType": "FIELDNAME",
+      "src": "parentIDField",
+      "sourcePropertyName": "Data",
+      "isBindingTarget": false,
+      "isVisible": true
+    },
+    "IDField":
+    {
+      "description": "The infotable field that represents the id value",
+      "baseType": "FIELDNAME",
+      "src": "idField",
+      "sourcePropertyName": "Data",
+      "isBindingTarget": false,
+      "isVisible": true
+    },
+    "PartNameField":
+    {
+      "description": "The infotable field that represents the id value",
+      "baseType": "FIELDNAME",
+      "src": "partNameField",
+      "sourcePropertyName": "Data",
+      "isBindingTarget": false,
+      "isVisible": true
+    },
+    "PartDescField":
+    {
+      "description": "The infotable field that represents the id value",
+      "baseType": "FIELDNAME",
+      "src": "partDescField",
+      "sourcePropertyName": "Data",
+      "isBindingTarget": false,
+      "isVisible": true
+    },
+    "HasChildrenField":
+    {
+      "description": "The infotable field that represents the id value",
+      "baseType": "FIELDNAME",
+      "src": "hasChildrenField",
+      "sourcePropertyName": "Data",
+      "isBindingTarget": false,
+      "isVisible": true
+    },
+    "NodeFormat":
+    {
+      "description": "",
+      "baseType": "RENDERERWITHSTATE",
+      "src": "stateDefObj",
+      "isVisible": true
+    }
+  },
+  "events": {
+    "Clicked": {
+      "src": "click"
+    }
+  }
+}

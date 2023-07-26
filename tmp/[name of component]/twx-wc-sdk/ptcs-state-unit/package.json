@@ -1,0 +1,11 @@
+{
+  "description": "An element that dynamically attaches state management to components",
+  "homepage": "",
+  "name": "ptcs-state-unit",
+  "version": "9.5.0-0",
+  "main": "ptcs-state-unit.js",
+  "license": "MIT",
+  "author": "Magnus Tobiasson <mtobiasson@ptc.com>",
+  "dependencies": {},
+  "devDependencies": {}
+}

@@ -1,0 +1,95 @@
+/*
+ * PTC colors
+ */
+/*
+ * Map colors to color concepts
+ */
+/*
+ * Create mixins
+ */
+.profile.colored .step {
+  /*font-weight: bold;*/
+  color: #090E15;
+  opacity: 1; }
+
+.profile.colored .step:hover {
+  background-color: #333;
+  color: white;
+  opacity: 1; }
+.custom {
+  margin: 8px 0px;
+  /*padding: 8px 0px;*/ }
+
+.custom .step {
+  padding: 6px 20px;
+  color: rgba(255, 255, 255, 0.753);
+  /*background: linear-gradient(to right, #0A7E8C, #3AAEBC);*/
+  background-color: #73767B;
+  border: 2px solid #D1D5DE;
+  clip-path: polygon(0% 0%, calc(100% - 16px) 0%, 100% 50%, calc(100% - 16px) 100%, 0% 100%, 16px 50%);
+  margin-left: -8px; }
+
+.custom .step:first-of-type {
+  padding-left: 4px;
+  margin-left: 0px;
+  clip-path: polygon(0% 0%, calc(100% - 16px) 0%, 100% 50%, calc(100% - 16px) 100%, 0% 100%); }
+
+.custom .step:hover {
+  color: #fff;
+/*  background: #3AAEBC;*/
+/*  background: linear-gradient(to right,blue, rgb(0, 110, 255));*/
+}
+
+.custom .sep {
+  display: none; }
+
+.custom paper-ripple {
+  color: red; }
+
+/*
+.main-list
+{
+  @include primary-on-bg();
+}
+
+.main-list:hover
+{
+  @include primary-on-bg--hover();
+}
+
+.main-list.selected
+{
+  @include primary-on-secondary();
+}
+
+.main-list.selected:hover
+{
+  @include primary-on-secondary--hover();
+}
+
+.main-list .icon
+{
+  color: $gray3;
+}
+
+.main-list .defect
+{
+  color: $primary-dark;
+}
+
+.main-list:hover .defect
+{
+  color: $primary-light;
+}
+
+.main-list.selected .defect
+{
+  color: $blue;
+}      
+
+
+.main-list.selected:hover .defect
+{
+  color: $red-light;
+}      
+*/

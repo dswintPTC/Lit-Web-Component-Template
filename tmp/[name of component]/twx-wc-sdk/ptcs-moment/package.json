@@ -1,0 +1,13 @@
+{
+  "description": "Utility code to optionally include moment.js",
+  "homepage": "",
+  "name": "ptcs-moment",
+  "version": "9.5.0-0",
+  "main": "moment-import.js",
+  "license": "MIT",
+  "author": "Dmitry Davidovich <ddavidovich@ptc.com>",
+  "dependencies": {
+    "moment": "^2.23.0"
+  },
+  "devDependencies": {}
+}

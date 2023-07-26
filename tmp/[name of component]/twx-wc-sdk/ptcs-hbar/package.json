@@ -1,0 +1,13 @@
+{
+  "description": "",
+  "keywords": ["deprecated"],
+  "homepage": "",
+  "name": "ptcs-hbar",
+  "version": "9.5.0-0",
+  "main": "ptcs-hbar.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

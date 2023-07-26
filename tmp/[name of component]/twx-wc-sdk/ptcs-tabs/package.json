@@ -1,0 +1,16 @@
+{
+  "description": "",
+  "keywords": [],
+  "homepage": "",
+  "name": "ptcs-tabs",
+  "version": "9.5.0-0",
+  "main": "ptcs-tab-set.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@vaadin/vaadin-tabs": "^2.1.1"
+  }
+}

@@ -1,0 +1,65 @@
+<html>
+    <head>
+        <!-- Load styling -->
+        <script type="module" src="../../../../ptcs-style-unit/ptcs-style-unit.js"></script>
+        <script type="module" src="../../../../ptcs-base-theme/ptcs-multi-theme.js"></script>
+
+
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" rel="stylesheet">
+
+        <script type="module" src="../ptcs-chip-data-filter-chip-container.js"></script>
+
+    <style>
+        :root {
+            font-family: 'Open Sans', sans-serif;
+        }
+    </style>
+    </head>
+    <body>
+        <br> <!-- to have place for a possible tootlip-->
+        <ptcs-chip-data-filter-chip-container>
+        </ptcs-chip-data-filter-chip-container>
+        <script>
+            const data = [{
+                content: 'animal: smallCat',
+                error: true,
+                id:    '2'
+            }, {
+                content: 'veryVeryVeryLongCategory: veryVeryVeryLongValue',
+                error: true,
+                id:    '5'
+            },{
+                content: 'vehicle: car',
+                id:    '3'
+            },{
+                content: 'device: smartphone',
+                error: false,
+                id:    '1'
+            }];
+
+            customElements.whenDefined("ptcs-chip-data-filter-chip-container").then(() => {
+                var chipContainer = document.querySelector("ptcs-chip-data-filter-chip-container");
+                /*
+                    the delay assures that all style rules were applied (see also PTCS.flush)
+                    otherwise, computation of chip width (that is used in the code) does not work correctly
+                */
+                chipContainer.dictionary = { stringShowLess : 'Show less' , stringShowMore : 'Show more'}
+                chipContainer.addEventListener('remove', event => {
+                    const triggerChip = event.composedPath()[0];
+                    const chipId = triggerChip.getAttribute('data-id');
+
+                    console.log('Id of a chip to be removed:', chipId);
+                    chipContainer.data = chipContainer.data.filter(el => {
+                        return el.id !== chipId;
+                    })
+                })
+
+                const neededDelayToRefreshStyles = 50;
+                setTimeout(() => {
+                    chipContainer.data = data;
+                }, neededDelayToRefreshStyles);
+            });
+        </script>
+
+    </body>
+</html>

@@ -1,0 +1,18 @@
+{
+  "description": "",
+  "keywords": [],
+  "homepage": "",
+  "name": "ptcs-breadcrumb",
+  "version": "9.5.0-0",
+  "main": "ptcs-breadcrumb.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ptcs-hbar": "file:../ptcs-hbar",
+    "ptcs-library": "file:../ptcs-library",
+    "ptcs-behavior-focus": "file:../ptcs-behavior-focus"
+  }
+}

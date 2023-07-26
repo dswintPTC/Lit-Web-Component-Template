@@ -1,0 +1,8 @@
+{
+  "description": "",
+  "homepage": "",
+  "name": "ptcs-file-upload",
+  "version": "9.5.0-0",
+  "main": "ptcs-file-upload.js",
+  "license": "MIT"
+}

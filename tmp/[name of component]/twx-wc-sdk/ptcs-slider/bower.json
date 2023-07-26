@@ -1,0 +1,17 @@
+{
+  "name": "ptcs-slider",
+  "description": "",
+  "main": "ptcs-slider.html",
+  "authors": [
+    "Magnus Tobiasson <mtobiasson@ptc.com>"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

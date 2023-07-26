@@ -1,0 +1,14 @@
+{
+  "description": "",
+  "homepage": "",
+  "name": "ptcs-value-display",
+  "version": "9.5.0-0",
+  "main": "ptcs-value-display.js",
+  "license": "MIT",
+  "author": "Hasse Haitto <hhaitto@ptc.com>",
+  "dependencies": {
+    "ptcs-modal-image-popup": "file:../ptcs-modal-image-popup",
+    "ptcs-modal-overlay": "file:../ptcs-modal-overlay"
+  },
+  "devDependencies": {}
+}

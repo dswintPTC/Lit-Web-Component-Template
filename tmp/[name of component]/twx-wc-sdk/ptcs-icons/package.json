@@ -1,0 +1,12 @@
+{
+  "description": "",
+  "homepage": "",
+  "name": "ptcs-icons",
+  "version": "9.5.0-0",
+  "license": "MIT",
+  "author": "Alex Ostrovsky <aostrovsky@ptc.com>",
+  "dependencies": {
+    "@polymer/iron-iconset-svg": "^3.0.0"
+  },
+  "devDependencies": {}
+}

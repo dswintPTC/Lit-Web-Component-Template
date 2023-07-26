@@ -1,0 +1,11 @@
+{
+  "description": "",
+  "homepage": "",
+  "name": "ptcs-link",
+  "version": "9.5.0-0",
+  "main": "ptcs-link.js",
+  "license": "MIT",
+  "author": "Magnus Tobiasson <mtobiasson@ptc.com>",
+  "dependencies": {},
+  "devDependencies": {}
+}

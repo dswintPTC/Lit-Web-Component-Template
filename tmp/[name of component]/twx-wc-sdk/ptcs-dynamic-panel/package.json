@@ -1,0 +1,12 @@
+{
+  "description": "",
+  "keywords": [],
+  "homepage": "",
+  "name": "ptcs-dynamic-panel",
+  "version": "9.5.0-0",
+  "main": "ptcs-dynamic-panel.js",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {}
+}

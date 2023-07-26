@@ -1,0 +1,14 @@
+{
+  "description": "Horizontal Divider Rule",
+  "homepage": "",
+  "name": "ptcs-divider",
+  "version": "9.5.0-0",
+  "main": "ptcs-divider.js",
+  "license": "MIT",
+  "contributors": [
+    "Magnus Tobiasson <mtobiasson@ptc.com>",
+    "Hasse Haitto <hhaitto@ptc.com>"
+  ],
+  "dependencies": {},
+  "devDependencies": {}
+}

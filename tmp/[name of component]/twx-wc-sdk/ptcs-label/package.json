@@ -1,0 +1,8 @@
+{
+  "description": "",
+  "homepage": "",
+  "name": "ptcs-label",
+  "version": "9.5.0-0",
+  "main": "ptcs-label.js",
+  "license": "MIT"
+}

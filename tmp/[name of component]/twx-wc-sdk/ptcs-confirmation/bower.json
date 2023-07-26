@@ -1,0 +1,15 @@
+{
+  "name": "ptcs-confirmation",
+  "description": "",
+  "main": "ptcs-confirmation.html",
+  "authors": [],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

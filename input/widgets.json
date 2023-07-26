@@ -1,0 +1,12 @@
+{
+  "description": "Tree widget using the Treant library",
+  "author": "Derrick Swint (dswint@ptc.com)",
+  "extensionName": "[Name of the Extension]",
+  "version": "1.0.0",
+  "htmlImports": [
+    
+  ],
+  "components": [
+    "import!treant-tree.json"
+    ]
+}

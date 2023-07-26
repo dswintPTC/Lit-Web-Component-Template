@@ -1,0 +1,7 @@
+const moment = window.moment;
+if (!moment) {
+    let msg = 'moment.js script should be included into html';
+    throw new Error(msg);
+}
+
+export default moment;

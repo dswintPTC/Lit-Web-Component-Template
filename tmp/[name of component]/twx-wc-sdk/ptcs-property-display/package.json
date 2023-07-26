@@ -1,0 +1,14 @@
+{
+  "description": "",
+  "homepage": "",
+  "name": "ptcs-property-display",
+  "version": "9.5.0-0",
+  "main": "ptcs-property-display.js",
+  "license": "MIT",
+  "author": "",
+  "dependencies": {
+    "ptcs-value-display": "file:../ptcs-value-display",
+    "ptcs-modal-image-popup": "file:../ptcs-modal-image-popup"
+  },
+  "devDependencies": {}
+}

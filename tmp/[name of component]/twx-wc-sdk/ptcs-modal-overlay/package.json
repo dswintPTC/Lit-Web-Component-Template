@@ -1,0 +1,11 @@
+{
+  "description": "",
+  "homepage": "",
+  "name": "ptcs-modal-overlay",
+  "version": "9.5.0-0",
+  "main": "ptcs-modal-overlay.js",
+  "license": "MIT",
+  "author": "",
+  "dependencies": {},
+  "devDependencies": {}
+}

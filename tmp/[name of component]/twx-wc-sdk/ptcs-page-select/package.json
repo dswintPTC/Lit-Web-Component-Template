@@ -1,0 +1,16 @@
+{
+  "description": "",
+  "keywords": [],
+  "homepage": "",
+  "name": "ptcs-page-select",
+  "version": "9.5.0-0",
+  "main": "ptcs-page-select.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ptcs-collapse": "file:../ptcs-collapse"
+  }
+}
